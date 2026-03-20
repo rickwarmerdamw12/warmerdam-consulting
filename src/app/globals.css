@@ -1,13 +1,103 @@
+/**
+ * ==========================================================
+ * GLOBALS.CSS - Globale stijlen voor de hele website
+ * ==========================================================
+ *
+ * Dit bestand bevat CSS (Cascading Style Sheets) die op de HELE website
+ * van toepassing zijn. Het wordt geladen in layout.tsx.
+ *
+ * BELANGRIJKE CSS CONCEPTEN:
+ *
+ * 1. CSS bepaalt hoe HTML-elementen eruitzien (kleuren, lettertypen,
+ *    afmetingen, positionering, etc.)
+ *
+ * 2. Tailwind CSS is een "utility-first" CSS framework. In plaats van
+ *    eigen CSS klassen te schrijven, gebruik je kleine hulpklassen
+ *    direct in je HTML/JSX (bijv. "bg-white" voor een witte achtergrond).
+ *
+ * 3. De @tailwind directives hieronder laden de basisstijlen van Tailwind.
+ *    Zonder deze regels werken de Tailwind klassen in je JSX niet.
+ */
+
+/*
+ * Google Fonts import: we laden het "Inter" lettertype van Google.
+ * @import url(...) haalt een extern CSS bestand op.
+ *
+ * De parameters in de URL:
+ * - family=Inter: het lettertype dat we willen
+ * - wght@400;500;600;700;800: de diktes die we laden
+ *   (400 = normaal, 700 = bold/vet, 800 = extra vet)
+ * - display=swap: de tekst wordt eerst getoond met een standaard lettertype
+ *   en "gewisseld" zodra Inter geladen is (betere gebruikerservaring)
+ */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+/*
+ * TAILWIND CSS DIRECTIVES
+ *
+ * Deze drie @tailwind regels zijn ESSENTIEEL - zonder deze werkt Tailwind niet.
+ *
+ * @tailwind base;
+ *   → Laadt de basisstijlen van Tailwind (reset/normalisatie).
+ *     Dit zorgt ervoor dat alle browsers dezelfde uitgangspositie hebben.
+ *     Browsers hebben standaard verschillende stijlen voor <h1>, <p>, etc.
+ *     De "base" laag maakt dit consistent.
+ *
+ * @tailwind components;
+ *   → Laadt component-klassen van Tailwind.
+ *     Dit zijn herbruikbare stijlpatronen (bijv. .container).
+ *     Hier kun je ook eigen componenten toevoegen met @layer components {}.
+ *
+ * @tailwind utilities;
+ *   → Laadt ALLE utility klassen (bg-white, text-lg, flex, etc.).
+ *     Dit is het hart van Tailwind - de honderden kleine klassen
+ *     die je in je JSX className="" attributen gebruikt.
+ */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * EIGEN CSS STIJLEN
+ *
+ * Hieronder schrijven we eigen CSS die niet (makkelijk) met Tailwind
+ * klassen te doen is. We gebruiken CSS "selectors" om elementen te targeten.
+ *
+ * Een selector bepaalt WELKE elementen de stijl krijgen:
+ * - html {} → past stijl toe op het <html> element
+ * - body {} → past stijl toe op het <body> element
+ * - .klasse {} → past stijl toe op elementen met die klasse
+ * - #id {} → past stijl toe op het element met dat id
+ */
+
+/*
+ * scroll-behavior: smooth;
+ * → Wanneer je op een link klikt die naar een sectie op dezelfde pagina
+ *   gaat (bijv. href="#contact"), scrollt de browser SOEPEL naar die sectie
+ *   in plaats van er direct naartoe te springen. Dit voelt prettiger aan
+ *   voor de gebruiker.
+ */
 html {
   scroll-behavior: smooth;
 }
 
+/*
+ * Basisstijlen voor de body (het hele zichtbare deel van de pagina):
+ *
+ * font-family: 'Inter', sans-serif;
+ * → Gebruik het Inter lettertype. Als dat niet beschikbaar is,
+ *   val terug op het standaard schreefloos lettertype (sans-serif).
+ *   Het woord "sans-serif" betekent "zonder schreven" (de kleine
+ *   streepjes aan letters in bijv. Times New Roman).
+ *
+ * background-color: #ffffff;
+ * → Witte achtergrond. #ffffff is de hexadecimale kleurcode voor wit.
+ *   Hex kleuren werken zo: #RRGGBB (rood, groen, blauw) van 00 tot FF.
+ *
+ * color: #0F172A;
+ * → Standaard tekstkleur (donkerblauw/bijna zwart).
+ *   Dit wordt overgenomen door alle tekstelementen tenzij anders ingesteld.
+ */
 body {
   font-family: 'Inter', sans-serif;
   background-color: #ffffff;
