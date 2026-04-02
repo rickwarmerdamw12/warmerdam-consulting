@@ -1,0 +1,152 @@
+{
+  "common": {
+    "agencyName": "[AGENCY_NAME]",
+    "cta": {
+      "geoScan": "Gratis GEO-scan",
+      "contact": "Contact",
+      "ourApproach": "Onze aanpak",
+      "learnMore": "Meer weten",
+      "requestScan": "Gratis scan aanvragen",
+      "planMeeting": "Plan een gesprek",
+      "sendMessage": "Verstuur bericht"
+    }
+  },
+  "nav": {
+    "services": "Diensten",
+    "caseStudies": "Case Studies",
+    "knowledgeBase": "Kennisbank",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "footer": {
+    "services": "Diensten",
+    "geo": "GEO",
+    "website": "Website Optimalisatie",
+    "sea": "Google Ads",
+    "company": "Bedrijf",
+    "about": "Over ons",
+    "caseStudies": "Case Studies",
+    "knowledgeBase": "Kennisbank",
+    "contact": "Contact",
+    "newsletter": "Nieuwsbrief",
+    "newsletterText": "Ontvang maandelijks GEO-tips en AI-inzichten.",
+    "emailPlaceholder": "je@email.nl",
+    "subscribe": "Aanmelden",
+    "copyright": "Alle rechten voorbehouden.",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden"
+  },
+  "home": {
+    "hero": {
+      "badge": "De toekomst van zoekmachines is hier",
+      "title": "Word gevonden waar het telt",
+      "titleHighlight": "gevonden",
+      "subtitle": "ChatGPT, Google Gemini en Perplexity bepalen wie er aanbevolen wordt. {agencyName} zorgt dat jouw bedrijf daar zichtbaar is.",
+      "ctaPrimary": "Gratis GEO-scan",
+      "ctaSecondary": "Onze aanpak"
+    },
+    "stats": {
+      "stat1": { "value": "3x", "label": "meer kans op AI-aanbeveling na GEO" },
+      "stat2": { "value": "47%", "label": "van zoekopdrachten via AI in 2025" },
+      "stat3": { "value": "12+", "label": "succesvolle GEO-trajecten" }
+    },
+    "services": {
+      "title": "Onze diensten",
+      "subtitle": "Van AI-zichtbaarheid tot conversie",
+      "geo": { "number": "001", "title": "GEO", "subtitle": "Generative Engine Optimization", "description": "Zorg dat AI-tools jouw bedrijf aanbevelen. Wij optimaliseren je content, autoriteit en structuur voor ChatGPT, Gemini, Perplexity en meer." },
+      "website": { "number": "002", "title": "Website Optimalisatie", "subtitle": "Development & Performance", "description": "Een snelle, AI-crawlbare website is de basis. Wij bouwen en verbeteren websites die zowel bezoekers als AI-zoekmachines aanspreken." },
+      "sea": { "number": "003", "title": "Search Engine Advertising", "subtitle": "Google Ads", "description": "Google Ads campagnes die converteren. Data-gedreven aanpak, transparante rapportage, meetbaar resultaat." }
+    },
+    "whyGeo": {
+      "title": "De zoekmachine revolutie is begonnen",
+      "subtitle": "Waarom GEO?",
+      "description": "Vroeger googelde iedereen. Nu stelt een groeiende groep hun vragen aan ChatGPT, geeft Google zelf AI Overviews, en zoeken mensen via Perplexity naar aanbevelingen. Als jouw bedrijf niet in die antwoorden zit, besta je niet.",
+      "point1": { "title": "AI-tools citeren bronnen", "description": "Wees een van die bronnen die AI-assistenten aanbevelen aan hun gebruikers." },
+      "point2": { "title": "Google AI Overviews", "description": "AI-gegenereerde antwoorden verdringen organische resultaten. Zorg dat jij erin staat." },
+      "point3": { "title": "First-mover advantage", "description": "Vroeg zijn betekent duurzaam concurrentievoordeel opbouwen." }
+    },
+    "caseStudy": {
+      "badge": "Case Study",
+      "title": "TAAI-consult",
+      "subtitle": "Van onzichtbaar naar autoriteit in medezeggenschap",
+      "stat1": { "value": "+340%", "label": "organisch bereik" },
+      "stat2": { "value": "25", "label": "Q&As gepubliceerd" },
+      "stat3": { "value": "Top 3", "label": "rankings" },
+      "cta": "Bekijk case study"
+    },
+    "ctaBanner": {
+      "title": "Weet jij hoe zichtbaar jouw bedrijf is voor AI?",
+      "subtitle": "Doe de gratis GEO-scan en ontdek het in 24 uur.",
+      "cta": "Gratis scan aanvragen"
+    },
+    "testimonials": {
+      "title": "Wat klanten zeggen",
+      "testimonial1": { "quote": "Door de GEO-aanpak van {agencyName} worden we nu regelmatig aanbevolen door ChatGPT. Dat had ik niet verwacht.", "author": "Placeholder Naam", "role": "CEO, Placeholder Bedrijf" },
+      "testimonial2": { "quote": "Eindelijk een agency die snapt dat de toekomst van zoeken AI-gedreven is. Resultaten spreken voor zich.", "author": "Placeholder Naam", "role": "Marketing Director, Placeholder B.V." }
+    }
+  },
+  "services": {
+    "hero": { "badge": "Diensten", "title": "Van onzichtbaar naar onmisbaar", "subtitle": "Wij combineren cutting-edge GEO-strategieen met bewezen digital marketing technieken." },
+    "process": {
+      "title": "Onze aanpak",
+      "subtitle": "Van analyse tot resultaat",
+      "step1": { "number": "01", "title": "Audit", "description": "Diepgaande analyse van je huidige AI-zichtbaarheid en digitale aanwezigheid." },
+      "step2": { "number": "02", "title": "Strategie", "description": "Op maat gemaakte roadmap gebaseerd op jouw doelen en markt." },
+      "step3": { "number": "03", "title": "Uitvoering", "description": "Hands-on implementatie van alle optimalisaties en content." },
+      "step4": { "number": "04", "title": "Rapportage", "description": "Transparante maandelijkse rapportages met meetbare resultaten." }
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "q1": { "question": "Wat is GEO precies?", "answer": "GEO staat voor Generative Engine Optimization. Het is het optimaliseren van je online aanwezigheid zodat AI-tools zoals ChatGPT, Google Gemini en Perplexity jouw bedrijf aanbevelen in hun antwoorden." },
+      "q2": { "question": "Hoe lang duurt het voordat ik resultaat zie?", "answer": "De eerste verbeteringen in AI-zichtbaarheid zijn vaak binnen 4-6 weken zichtbaar. Duurzame resultaten bouwen we op over 3-6 maanden." },
+      "q3": { "question": "Werkt GEO ook voor kleine bedrijven?", "answer": "Absoluut. Juist kleinere bedrijven kunnen profiteren van de first-mover advantage. AI-tools zijn op zoek naar autoriteit en relevantie, niet per se naar bedrijfsgrootte." },
+      "q4": { "question": "Wat kost een GEO-traject?", "answer": "Onze trajecten starten vanaf 1.500 euro per maand. De exacte investering hangt af van je huidige situatie, doelen en de scope van het traject." },
+      "q5": { "question": "Kan ik GEO combineren met SEO?", "answer": "Zeker, en dat raden we ook aan. GEO en SEO versterken elkaar. Veel optimalisaties voor AI-zichtbaarheid helpen ook je traditionele zoekresultaten." },
+      "q6": { "question": "Hoe meet je AI-zichtbaarheid?", "answer": "We monitoren hoe vaak en in welke context jouw bedrijf wordt genoemd door verschillende AI-tools. Ook tracken we de kwaliteit van de aanbevelingen en de impact op je traffic en conversies." }
+    }
+  },
+  "geo": {
+    "hero": { "badge": "GEO", "title": "Generative Engine Optimization", "subtitle": "De nieuwe standaard voor online zichtbaarheid. Wij zorgen dat AI-assistenten jouw bedrijf aanbevelen." },
+    "what": { "title": "Wat is GEO?", "description": "Generative Engine Optimization is het systematisch optimaliseren van je online aanwezigheid zodat AI-tools jouw bedrijf herkennen, begrijpen en aanbevelen. Dit gaat verder dan traditionele SEO.", "point1": "Content structureren voor AI-begrip", "point2": "Autoriteit opbouwen in je niche", "point3": "Technische optimalisatie voor AI-crawlers", "point4": "Citaatwaardige content creeren" },
+    "how": { "title": "Hoe werkt het?", "step1": { "title": "AI Visibility Audit", "description": "We analyseren hoe AI-tools momenteel over jouw bedrijf en branche praten." }, "step2": { "title": "Content Strategie", "description": "We ontwikkelen content die AI-tools willen citeren en aanbevelen." }, "step3": { "title": "Technische Optimalisatie", "description": "We zorgen dat je website perfect leesbaar is voor AI-crawlers." }, "step4": { "title": "Authority Building", "description": "We bouwen je positie als autoriteit in je niche uit." } },
+    "results": { "title": "Wat kun je verwachten?", "result1": { "value": "3-5x", "label": "meer AI-vermeldingen" }, "result2": { "value": "40%", "label": "meer qualified traffic" }, "result3": { "value": "60%", "label": "hogere engagement" } }
+  },
+  "website": {
+    "hero": { "badge": "Website", "title": "Website Optimalisatie & Development", "subtitle": "Een snelle, moderne website die zowel mensen als AI overtuigt." },
+    "services": { "title": "Wat we doen", "service1": { "title": "Performance Optimalisatie", "description": "Core Web Vitals, laadtijd, en technische SEO op orde." }, "service2": { "title": "AI-Ready Structuur", "description": "Structured data, semantic HTML, en optimale crawlbaarheid." }, "service3": { "title": "Conversie Optimalisatie", "description": "UX verbeteringen die bezoekers omzetten in klanten." }, "service4": { "title": "Custom Development", "description": "Next.js websites gebouwd voor snelheid en schaalbaarheid." } }
+  },
+  "sea": {
+    "hero": { "badge": "SEA", "title": "Search Engine Advertising", "subtitle": "Google Ads campagnes die converteren. Data-gedreven, transparant, meetbaar." },
+    "approach": { "title": "Onze aanpak", "point1": { "title": "Keyword Research", "description": "Diepgaande analyse van zoekgedrag en concurrentie." }, "point2": { "title": "Campagne Structuur", "description": "Optimale opzet voor maximale relevantie en kwaliteitsscore." }, "point3": { "title": "Continu Optimaliseren", "description": "Data-gedreven bijsturen voor steeds betere resultaten." }, "point4": { "title": "Transparante Rapportage", "description": "Duidelijke maandelijkse reports met actionable insights." } }
+  },
+  "caseStudies": { "hero": { "badge": "Case Studies", "title": "Resultaten die spreken", "subtitle": "Ontdek hoe we bedrijven helpen groeien met GEO en digital marketing." } },
+  "taai": {
+    "hero": { "badge": "Case Study", "client": "TAAI-consult", "title": "Van onzichtbaar naar autoriteit in medezeggenschap", "subtitle": "Hoe een adviesbureau voor ondernemingsraden de nummer 1 positie in AI-aanbevelingen veroverde." },
+    "challenge": { "title": "De uitdaging", "description": "TAAI-consult is gespecialiseerd in begeleiding van ondernemingsraden, maar was online nauwelijks vindbaar. Potentiele klanten die ChatGPT of Google vroegen naar advies over medezeggenschap kregen andere partijen aanbevolen." },
+    "approach": { "title": "Onze aanpak", "step1": "Uitgebreide AI Visibility Audit", "step2": "Content strategie gefocust op veelgestelde vragen", "step3": "25 diepgaande Q&A artikelen gepubliceerd", "step4": "Technische optimalisatie voor AI-crawlers", "step5": "Authority building via thought leadership" },
+    "results": { "title": "De resultaten", "stat1": { "value": "+340%", "label": "organisch bereik" }, "stat2": { "value": "25", "label": "Q&As gepubliceerd" }, "stat3": { "value": "Top 3", "label": "AI-aanbevelingen" }, "stat4": { "value": "4 maanden", "label": "tot resultaat" } },
+    "testimonial": { "quote": "We worden nu regelmatig genoemd door ChatGPT als experts in medezeggenschap. Dat levert ons kwalitatieve leads op.", "author": "Placeholder Naam", "role": "Directeur, TAAI-consult" }
+  },
+  "knowledgeBase": {
+    "hero": { "badge": "Kennisbank", "title": "GEO Insights & Tips", "subtitle": "Blijf op de hoogte van de laatste ontwikkelingen in AI-zichtbaarheid en digital marketing." },
+    "articles": { "article1": { "title": "Wat is GEO en waarom is het belangrijk?", "excerpt": "Een complete gids over Generative Engine Optimization en hoe het jouw bedrijf kan helpen.", "category": "GEO Basics", "readTime": "8 min" }, "article2": { "title": "5 manieren om je AI-zichtbaarheid te verbeteren", "excerpt": "Praktische tips die je vandaag nog kunt toepassen om beter gevonden te worden door AI-tools.", "category": "Tips", "readTime": "5 min" }, "article3": { "title": "De toekomst van zoeken: AI vs. Google", "excerpt": "Hoe AI-assistenten de manier waarop we zoeken fundamenteel veranderen.", "category": "Trends", "readTime": "10 min" } }
+  },
+  "about": {
+    "hero": { "badge": "Over ons", "title": "De eerste GEO-agency van Nederland", "subtitle": "Wij helpen bedrijven zichtbaar worden in het AI-tijdperk." },
+    "rick": { "name": "Rick Warmerdam", "age": "24 jaar", "location": "Meteren / Bali", "role": "Founder & GEO Specialist", "bio": "Als ondernemer en digital marketing specialist zag ik hoe de zoekwereld fundamenteel aan het veranderen is. AI-assistenten worden de nieuwe gatekeepers van informatie. Met [AGENCY_NAME] help ik bedrijven om ook in dit nieuwe landschap zichtbaar te blijven." },
+    "mission": { "title": "Onze missie", "description": "Bedrijven klaarstomen voor de toekomst van zoeken. Wij geloven dat AI-zichtbaarheid de komende jaren net zo belangrijk wordt als SEO de afgelopen 20 jaar was." },
+    "values": { "title": "Waar we voor staan", "value1": { "title": "Data-gedreven", "description": "Beslissingen op basis van data, niet onderbuikgevoel." }, "value2": { "title": "Transparant", "description": "Eerlijke communicatie over wat werkt en wat niet." }, "value3": { "title": "Innovatief", "description": "Voorop lopen in een snel veranderend landschap." } }
+  },
+  "contact": {
+    "hero": { "badge": "Contact", "title": "Laten we praten", "subtitle": "Benieuwd wat GEO voor jouw bedrijf kan betekenen? Neem contact op." },
+    "form": { "name": "Naam", "email": "E-mail", "company": "Bedrijf", "website": "Website", "message": "Bericht", "submit": "Verstuur bericht", "success": "Bedankt voor je bericht! We nemen binnen 24 uur contact op.", "error": "Er ging iets mis. Probeer het opnieuw." },
+    "info": { "email": "rick@warmerdamconsulting.nl", "location": "Meteren, Nederland", "calendly": "Plan een videocall" }
+  },
+  "geoScan": {
+    "hero": { "badge": "Gratis GEO-scan", "title": "Ontdek je AI-zichtbaarheid", "subtitle": "In 24 uur weet je hoe zichtbaar jouw bedrijf is voor AI-tools en wat je kunt verbeteren." },
+    "what": { "title": "Wat krijg je?", "point1": { "title": "AI Visibility Score", "description": "Een score die aangeeft hoe goed AI-tools jouw bedrijf kennen." }, "point2": { "title": "Concurrentie Analyse", "description": "Hoe sta je ervoor ten opzichte van je concurrenten?" }, "point3": { "title": "Quick Wins", "description": "3-5 concrete verbeterpunten die je direct kunt toepassen." } },
+    "how": { "title": "Hoe werkt het?", "step1": { "number": "1", "title": "Vul het formulier in", "description": "Deel je bedrijfsgegevens en website." }, "step2": { "number": "2", "title": "Wij analyseren", "description": "Binnen 24 uur voeren we de scan uit." }, "step3": { "number": "3", "title": "Ontvang je rapport", "description": "Je krijgt een persoonlijk rapport met bevindingen." } },
+    "form": { "name": "Naam", "email": "E-mail", "company": "Bedrijfsnaam", "website": "Website URL", "submit": "Ontvang mijn gratis scan", "success": "Bedankt! Je ontvangt je GEO-scan binnen 24 uur.", "privacy": "We delen je gegevens nooit met derden." },
+    "social": { "title": "Al {count}+ bedrijven gingen je voor" }
+  }
+}

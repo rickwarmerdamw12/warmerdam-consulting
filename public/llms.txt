@@ -1,0 +1,32 @@
+# Warmerdam Consulting
+
+> De eerste GEO-agency van Nederland. Wij maken merken zichtbaar in AI-gegenereerde antwoorden.
+
+## Over ons
+
+Warmerdam Consulting is een Nederlandse digital marketing agency gespecialiseerd in Generative Engine Optimization (GEO). Wij helpen bedrijven om zichtbaar te worden in AI-antwoorden van platforms zoals ChatGPT, Google Gemini, Perplexity en andere AI-modellen.
+
+Opgericht door Rick Warmerdam, combineren wij strategisch inzicht met technische expertise om merken te positioneren voor het AI-tijdperk.
+
+## Diensten
+
+### GEO (Generative Engine Optimization)
+Wij optimaliseren jouw online aanwezigheid zodat AI-modellen jouw merk herkennen, vertrouwen en aanbevelen in hun antwoorden. Dit omvat gestructureerde data optimalisatie, autoriteitsopbouw, contentstrategieën gericht op AI-interpretatie en maandelijkse monitoring van AI-vermeldingen.
+
+### Website Optimalisatie
+Technisch perfecte, razendsnelle websites die door zowel zoekmachines als AI-modellen worden begrepen. Core Web Vitals optimalisatie, semantische HTML-structuur, schema markup en mobile-first design.
+
+### Search Engine Advertising (SEA)
+Data-gedreven Google Ads campagnes met meetbare ROI. Zoekwoordonderzoek, campagneoptimalisatie, A/B testing en transparante rapportage.
+
+## Contact
+
+- Website: https://warmerdamconsulting.nl
+- E-mail: info@warmerdamconsulting.nl
+- Locatie: Nederland
+
+## Gratis GEO-scan
+
+Wij bieden een gratis GEO-scan aan waarmee bedrijven kunnen ontdekken hoe hun merk scoort in AI-antwoorden. De scan bevat een AI-zichtbaarheidsscore, concurrentieanalyse, top 5 kansen en strategisch advies.
+
+Meer informatie: https://warmerdamconsulting.nl/geo-scan

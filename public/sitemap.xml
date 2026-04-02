@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage NL (default) -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Homepage EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Diensten NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/diensten</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/diensten" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/services" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Services EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/diensten" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/services" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- GEO NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/diensten/geo</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/diensten/geo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/services/geo" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- GEO EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/services/geo</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/diensten/geo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/services/geo" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Website NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/diensten/website</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/diensten/website" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/services/website" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Website EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/services/website</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/diensten/website" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/services/website" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SEA NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/diensten/sea</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/diensten/sea" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/services/sea" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SEA EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/services/sea</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/diensten/sea" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/services/sea" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Case Studies NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/case-studies</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/case-studies" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/case-studies" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Case Studies EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/case-studies</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/case-studies" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/case-studies" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- TAAI Case Study NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/case-studies/taai</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/case-studies/taai" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/case-studies/taai" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- TAAI Case Study EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/case-studies/taai</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/case-studies/taai" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/case-studies/taai" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kennisbank NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/kennisbank</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/kennisbank" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/knowledge-base" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Knowledge Base EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/knowledge-base</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/kennisbank" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/knowledge-base" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Over Ons NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/over-ons</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/over-ons" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/over-ons" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/contact</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- GEO Scan NL -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/geo-scan</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/geo-scan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/geo-scan" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- GEO Scan EN -->
+  <url>
+    <loc>https://warmerdamconsulting.nl/en/geo-scan</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warmerdamconsulting.nl/geo-scan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://warmerdamconsulting.nl/en/geo-scan" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

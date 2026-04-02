@@ -1,105 +1,119 @@
-/**
- * ==========================================================
- * GLOBALS.CSS - Globale stijlen voor de hele website
- * ==========================================================
- *
- * Dit bestand bevat CSS (Cascading Style Sheets) die op de HELE website
- * van toepassing zijn. Het wordt geladen in layout.tsx.
- *
- * BELANGRIJKE CSS CONCEPTEN:
- *
- * 1. CSS bepaalt hoe HTML-elementen eruitzien (kleuren, lettertypen,
- *    afmetingen, positionering, etc.)
- *
- * 2. Tailwind CSS is een "utility-first" CSS framework. In plaats van
- *    eigen CSS klassen te schrijven, gebruik je kleine hulpklassen
- *    direct in je HTML/JSX (bijv. "bg-white" voor een witte achtergrond).
- *
- * 3. De @tailwind directives hieronder laden de basisstijlen van Tailwind.
- *    Zonder deze regels werken de Tailwind klassen in je JSX niet.
- */
-
-/*
- * Google Fonts import: we laden het "Inter" lettertype van Google.
- * @import url(...) haalt een extern CSS bestand op.
- *
- * De parameters in de URL:
- * - family=Inter: het lettertype dat we willen
- * - wght@400;500;600;700;800: de diktes die we laden
- *   (400 = normaal, 700 = bold/vet, 800 = extra vet)
- * - display=swap: de tekst wordt eerst getoond met een standaard lettertype
- *   en "gewisseld" zodra Inter geladen is (betere gebruikerservaring)
- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
-/*
- * TAILWIND CSS DIRECTIVES
- *
- * Deze drie @tailwind regels zijn ESSENTIEEL - zonder deze werkt Tailwind niet.
- *
- * @tailwind base;
- *   → Laadt de basisstijlen van Tailwind (reset/normalisatie).
- *     Dit zorgt ervoor dat alle browsers dezelfde uitgangspositie hebben.
- *     Browsers hebben standaard verschillende stijlen voor <h1>, <p>, etc.
- *     De "base" laag maakt dit consistent.
- *
- * @tailwind components;
- *   → Laadt component-klassen van Tailwind.
- *     Dit zijn herbruikbare stijlpatronen (bijv. .container).
- *     Hier kun je ook eigen componenten toevoegen met @layer components {}.
- *
- * @tailwind utilities;
- *   → Laadt ALLE utility klassen (bg-white, text-lg, flex, etc.).
- *     Dit is het hart van Tailwind - de honderden kleine klassen
- *     die je in je JSX className="" attributen gebruikt.
- */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/*
- * EIGEN CSS STIJLEN
- *
- * Hieronder schrijven we eigen CSS die niet (makkelijk) met Tailwind
- * klassen te doen is. We gebruiken CSS "selectors" om elementen te targeten.
- *
- * Een selector bepaalt WELKE elementen de stijl krijgen:
- * - html {} → past stijl toe op het <html> element
- * - body {} → past stijl toe op het <body> element
- * - .klasse {} → past stijl toe op elementen met die klasse
- * - #id {} → past stijl toe op het element met dat id
- */
+:root {
+  --primary-bg: #0A0A0A;
+  --secondary-bg: #111111;
+  --card-bg: #1A1A1A;
+  --border: #262626;
+  --text-primary: #F5F5F5;
+  --text-secondary: #888888;
+  --accent-primary: #FF6B00;
+  --accent-secondary: #FF9A3C;
+}
 
-/*
- * scroll-behavior: smooth;
- * → Wanneer je op een link klikt die naar een sectie op dezelfde pagina
- *   gaat (bijv. href="#contact"), scrollt de browser SOEPEL naar die sectie
- *   in plaats van er direct naartoe te springen. Dit voelt prettiger aan
- *   voor de gebruiker.
- */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-/*
- * Basisstijlen voor de body (het hele zichtbare deel van de pagina):
- *
- * font-family: 'Inter', sans-serif;
- * → Gebruik het Inter lettertype. Als dat niet beschikbaar is,
- *   val terug op het standaard schreefloos lettertype (sans-serif).
- *   Het woord "sans-serif" betekent "zonder schreven" (de kleine
- *   streepjes aan letters in bijv. Times New Roman).
- *
- * background-color: #ffffff;
- * → Witte achtergrond. #ffffff is de hexadecimale kleurcode voor wit.
- *   Hex kleuren werken zo: #RRGGBB (rood, groen, blauw) van 00 tot FF.
- *
- * color: #0F172A;
- * → Standaard tekstkleur (donkerblauw/bijna zwart).
- *   Dit wordt overgenomen door alle tekstelementen tenzij anders ingesteld.
- */
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #ffffff;
-  color: #0F172A;
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+  font-family: var(--font-plus-jakarta), sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(255, 107, 0, 0.3);
+  color: var(--text-primary);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}
+
+.glass {
+  background: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 107, 0, 0.1);
+}
+
+.glass-hover:hover {
+  border-color: rgba(255, 107, 0, 0.3);
+  box-shadow: 0 0 30px rgba(255, 107, 0, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #FF6B00, #FF9A3C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.orange-glow {
+  box-shadow: 0 0 40px rgba(255, 107, 0, 0.15);
+}
+
+.orange-glow-strong {
+  box-shadow: 0 0 60px rgba(255, 107, 0, 0.25);
+}
+
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(38, 38, 38, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(38, 38, 38, 0.3) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+.container-custom {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
