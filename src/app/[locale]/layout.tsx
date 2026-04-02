@@ -22,9 +22,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: '[AGENCY_NAME] - De eerste GEO-agency van Nederland',
+  title: 'Warmerdam Consulting - De eerste GEO-agency van Nederland',
   description:
-    'ChatGPT, Gemini en Perplexity bepalen wie er aanbevolen wordt. [AGENCY_NAME] zorgt dat jouw bedrijf daar zichtbaar is.',
+    'ChatGPT, Gemini en Perplexity bepalen wie er aanbevolen wordt. Warmerdam Consulting zorgt dat jouw bedrijf daar zichtbaar is.',
   keywords: [
     'GEO',
     'Generative Engine Optimization',
@@ -33,24 +33,24 @@ export const metadata: Metadata = {
     'AI SEO',
     'Nederland',
   ],
-  authors: [{ name: '[AGENCY_NAME]' }],
-  creator: '[AGENCY_NAME]',
+  authors: [{ name: 'Warmerdam Consulting' }],
+  creator: 'Warmerdam Consulting',
   metadataBase: new URL('https://warmerdamconsulting.nl'),
   openGraph: {
-    title: '[AGENCY_NAME] - De eerste GEO-agency van Nederland',
+    title: 'Warmerdam Consulting - De eerste GEO-agency van Nederland',
     description:
-      'ChatGPT, Gemini en Perplexity bepalen wie er aanbevolen wordt. [AGENCY_NAME] zorgt dat jouw bedrijf daar zichtbaar is.',
+      'ChatGPT, Gemini en Perplexity bepalen wie er aanbevolen wordt. Warmerdam Consulting zorgt dat jouw bedrijf daar zichtbaar is.',
     url: 'https://warmerdamconsulting.nl',
-    siteName: '[AGENCY_NAME]',
+    siteName: 'Warmerdam Consulting',
     locale: 'nl_NL',
     alternateLocale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: '[AGENCY_NAME] - De eerste GEO-agency van Nederland',
+    title: 'Warmerdam Consulting - De eerste GEO-agency van Nederland',
     description:
-      'ChatGPT, Gemini en Perplexity bepalen wie er aanbevolen wordt. [AGENCY_NAME] zorgt dat jouw bedrijf daar zichtbaar is.',
+      'ChatGPT, Gemini en Perplexity bepalen wie er aanbevolen wordt. Warmerdam Consulting zorgt dat jouw bedrijf daar zichtbaar is.',
   },
   robots: {
     index: true,

@@ -1,6 +1,6 @@
 {
   "common": {
-    "agencyName": "[AGENCY_NAME]",
+    "agencyName": "Warmerdam Consulting",
     "cta": {
       "geoScan": "Gratis GEO-scan",
       "contact": "Contact",
@@ -133,7 +133,7 @@
   },
   "about": {
     "hero": { "badge": "Over ons", "title": "De eerste GEO-agency van Nederland", "subtitle": "Wij helpen bedrijven zichtbaar worden in het AI-tijdperk." },
-    "rick": { "name": "Rick Warmerdam", "age": "24 jaar", "location": "Meteren / Bali", "role": "Founder & GEO Specialist", "bio": "Als ondernemer en digital marketing specialist zag ik hoe de zoekwereld fundamenteel aan het veranderen is. AI-assistenten worden de nieuwe gatekeepers van informatie. Met [AGENCY_NAME] help ik bedrijven om ook in dit nieuwe landschap zichtbaar te blijven." },
+    "rick": { "name": "Rick Warmerdam", "age": "24 jaar", "location": "Meteren / Bali", "role": "Founder & GEO Specialist", "bio": "Als ondernemer en digital marketing specialist zag ik hoe de zoekwereld fundamenteel aan het veranderen is. AI-assistenten worden de nieuwe gatekeepers van informatie. Met Warmerdam Consulting help ik bedrijven om ook in dit nieuwe landschap zichtbaar te blijven." },
     "mission": { "title": "Onze missie", "description": "Bedrijven klaarstomen voor de toekomst van zoeken. Wij geloven dat AI-zichtbaarheid de komende jaren net zo belangrijk wordt als SEO de afgelopen 20 jaar was." },
     "values": { "title": "Waar we voor staan", "value1": { "title": "Data-gedreven", "description": "Beslissingen op basis van data, niet onderbuikgevoel." }, "value2": { "title": "Transparant", "description": "Eerlijke communicatie over wat werkt en wat niet." }, "value3": { "title": "Innovatief", "description": "Voorop lopen in een snel veranderend landschap." } }
   },
